@@ -1,0 +1,22 @@
+{
+  "dataset": "CIFAR-10",
+  "epochs": 20,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "augmentation": ["RandomCrop(32,padding=4)", "RandomHorizontalFlip"],
+  "architecture": "Conv(3->32)-Pool, Conv(32->64)-Pool, Conv(64->128)-Pool, FC(2048->256)-Dropout, FC(256->10)",
+  "test_accuracy": 79.25,
+  "per_class_accuracy": {
+    "airplane": 89.6,
+    "automobile": 92.6,
+    "bird": 68.2,
+    "cat": 59.2,
+    "deer": 78.9,
+    "dog": 66.0,
+    "frog": 90.8,
+    "horse": 83.9,
+    "ship": 82.9,
+    "truck": 80.4
+  }
+}
