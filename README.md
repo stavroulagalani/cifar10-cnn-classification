@@ -1,4 +1,10 @@
+![CIFAR10 CNN](https://miro.medium.com/v2/resize:fit:1400/1*1TI1aGBZ4dybR6__DI9dzA.png)
+
 # CIFAR-10 Image Classification with Convolutional Neural Networks
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Dataset](https://img.shields.io/badge/Dataset-CIFAR10-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 This project implements image classification on the **CIFAR-10 dataset** using a **Convolutional Neural Network (CNN)** built with **PyTorch**.  
 The goal of the project is to explore the performance of deep learning models compared to classical machine learning approaches such as **k-Nearest Neighbor (KNN)** and **Nearest Centroid**.
