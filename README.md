@@ -1,5 +1,3 @@
-![CIFAR10 CNN](https://miro.medium.com/v2/resize:fit:1400/1*1TI1aGBZ4dybR6__DI9dzA.png)
-
 # CIFAR-10 Image Classification with Convolutional Neural Networks
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
